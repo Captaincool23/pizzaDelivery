@@ -24,10 +24,10 @@
               <form id= "pizzaOrder">
                 <label for="size">Choose your Size of Pizza:</label>
                 <select class="form-control" id="size">
-                  <option value= 8.00 title="Small">Small</option>
-                  <option value= 11.00 title="Medium">Medium</option>
-                  <option value= 13.00 title="Large">Large</option>
-                  <option value= 14.00 title="Extra-Large">Extra-Large</option>
+                  <option value= 8.00 title="Small">Small: $8.00</option>
+                  <option value= 11.00 title="Medium">Medium: $11.00</option>
+                  <option value= 13.00 title="Large">Large: $13.00</option>
+                  <option value= 14.00 title="Extra-Large">Extra-Large: $14.00</option>
                 </select>
                 <label for="toppings1">Choose Your First Pizza Topping:</label>
                 <select class="form-control" id="toppings1">
@@ -81,8 +81,8 @@
                   <option value= 1.50>Arugula (+1.50)</option>
                   <option value= 1.50>Green Olives (+1.50)</option>
                 </select>
-                <button type="submit" class="btn btn-success">Order Pizza</button>
-                <button type="button" class="btn btn-success" value="Refresh Page" onClick="window.location.reload()">Cancel</button>
+                <button type="submit" class="btn btn-success" id="orderButton">Order Pizza</button>
+                <button type="button" class="btn btn-danger" value="Refresh Page" onClick="window.location.reload()" id="cancelButton">Cancel</button>
               </form>
             </div>
           </div>
