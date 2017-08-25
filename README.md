@@ -37,7 +37,7 @@ _HTML, CSS, Bootstrap, javascript, jquery_
 
 ## Screen Shot
 
-![Screen Shot](/Users/Guest/Desktop/pizzaDelivery/img/screenShotPizza.png)
+![Screen Shot](pizzaDelivery/img/screenShotPizza.png)
 
 ### License
 
