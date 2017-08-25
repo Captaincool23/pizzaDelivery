@@ -2,10 +2,27 @@
   display: none;
 }
 #displayWell{
-  background-color: pink;
+  background-image: url(../img/pizza.jpg);
+  background-size: 100%;
+  text-shadow: 2px 2px white;
+  font-family:
+
 
 }
+#leftCol{
+  background-color: green;
+  height: 100%;
 
+}
+#rightCol{
+  background-color: red;
+  height: 100%;
+
+}
+.jumbotron{
+    border: 4px solid black;
+    margin-top: 80px;
+}
 .jumbotron h1{
   text-align: center;
   font-family: fantasy;
@@ -14,18 +31,22 @@
 .jumbotron h3{
   text-align: center;
   font-family: fantasy;
+
 }
 .well{
-  background-color: lightblue;
-  border: 50px;
-  padding: 20px;
+  background-color:white;
+  padding: 30px;
   border-radius: 30px;
 }
 .orderTitle{
   text-align: center;
   margin-top: 50px;
 }
+body{
+  background-image: url(../img/italianStreets.jpg);
+  background-image: 25%;
 
+}
 ul{
   list-style: none;
   font-size: 3em;
