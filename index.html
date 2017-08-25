@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <title>Gottolobios Pizzeria</title>
+  </head>
+  <body>
+    <div class = "container">
+      <div class = "jumbotron">
+        <h1>Welcome to Gottolobios</h1>
+        <h3>Best Pizza Outside Naples</h3>
+      </div>
+      <div class = "form-group">
+        <form id= "pizzaOrder">
+          <label for="size">Choose your Size of Pizza:</label>
+          <select class="form-control" id="size">
+            <option value= 0>Small</option>
+            <option value= 2>Medium</option>
+            <option value= 4>Large</option>
+            <option value= 5>Extra-Large</option>
+          </select>
+          <label for="size">Choose your Pizza Toppings:</label>
+          <select class="form-control" id="size">
+            <option value= 0>Plain (Just Cheese and sauce)</option>
+            <option value= 2.00>Pepperoni (+$2.00)</option>
+            <option value= 2.00>Sausauge (+$2.00)</option>
+            <option value= 2.50>Capicola (+$2.50)</option>
+            <option value= 2.50>Anchovies (+$2.50)</option>
+            <option value= 1.50>Mushrooms (+1.50)</option>
+            <option value= 1.50>Onion (+1.50)</option>
+            <option value= 1.50>Green Peppers (+1.50)</option>
+            <option value= 1.50>Arugula (+1.50)</option>
+            <option value= 1.50>Green Olives (+1.50)</option>
+          </select>
+         <button type="submit" class="btn btn-success">Order Pizza</button>
+        </form>
+      </div>
+      <div id="customerOrder">
+        <h1>Here's Your order:</h1>
+        <h4>Everything look right?</h4>
+      </div>
+    </div>
+  </body>
+</html>
