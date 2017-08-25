@@ -5,6 +5,8 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <title>Gottolobios Pizzeria</title>
   </head>
   <body>
@@ -12,6 +14,7 @@
       <div class = "jumbotron">
         <h1>Welcome to Gottolobios</h1>
         <h3>Best Pizza Outside Naples</h3>
+        <p>...actually...yeah, we're better than Naples</p>
       </div>
       <div class="row">
         <div class="col-md-3">
@@ -24,12 +27,12 @@
               <form id= "pizzaOrder">
                 <label for="size">Choose your Size of Pizza:</label>
                 <select class="form-control" id="size">
-                  <option value= 8.00 title="Small">Small: $8.00</option>
-                  <option value= 11.00 title="Medium">Medium: $11.00</option>
-                  <option value= 13.00 title="Large">Large: $13.00</option>
-                  <option value= 14.00 title="Extra-Large">Extra-Large: $14.00</option>
+                  <option value= 8.00>Small: $8.00</option>
+                  <option value= 11.00>Medium: $11.00</option>
+                  <option value= 13.00>Large: $13.00</option>
+                  <option value= 14.00>Extra-Large: $14.00</option>
                 </select>
-                <label for="toppings1">Choose Your First Pizza Topping:</label>
+                <label for="toppings1">Choose Your First Topping:</label>
                 <select class="form-control" id="toppings1">
                   <option value= 0>Plain (Just Cheese and sauce)</option>
                   <option value= 2.00>Pepperoni (+$2.00)</option>
@@ -45,7 +48,7 @@
                 <label for="toppings2">Second Topping:</label>
                 <select class="form-control" id="toppings2">
                   <option value= 0>none</option>
-                  <option value= 2.00>Pepperoni (+$2.00)</option>
+                  <option value= 2.00 name="1">Pepperoni (+$2.00)</option>
                   <option value= 2.00>Sausage (+$2.00)</option>
                   <option value= 2.50>Capicola (+$2.50)</option>
                   <option value= 2.50>Anchovies (+$2.50)</option>

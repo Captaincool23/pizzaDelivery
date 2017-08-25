@@ -21,7 +21,6 @@ $(document).ready(function(){
     var toppings4 = parseFloat($("#toppings4").val());
 
     var userPizza = new Pizza(size,toppings1,toppings2,toppings3,toppings4);
-    // alert(userPizza.price())
 
     $("#customerOrder").slideToggle(500);
     $("ul").append("<li>" + "$" + userPizza.price().toFixed(2) + "</li>")
