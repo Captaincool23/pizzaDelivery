@@ -10,6 +10,7 @@ function Pizza(size, toppings1,toppings2,toppings3,toppings4){
     var total = this.toppings1 + this.toppings2 + this.toppings3 + this.toppings4 + this.size;
     return total;
   }
+
 $(document).ready(function(){
   $("#pizzaOrder").submit(function(event){
     event.preventDefault();
@@ -18,9 +19,11 @@ $(document).ready(function(){
     var toppings2 = parseFloat($("#toppings2").val());
     var toppings3 = parseFloat($("#toppings3").val());
     var toppings4 = parseFloat($("#toppings4").val());
-    var userPizza = new Pizza(size, toppings1,toppings2,toppings3,toppings4);
-    alert(userPizza.price());
-    $("#customerOrder").show();
+
+    var userPizza = new Pizza(size,toppings1,toppings2,toppings3,toppings4);
+    // alert(userPizza.price())
+
+    $("#customerOrder").slideToggle(500);
     $("ul").append("<li>" + "$" + userPizza.price().toFixed(2) + "</li>")
     $("li").remove();
     $("ul").append("<li>" + "$" + userPizza.price().toFixed(2) + "</li>")

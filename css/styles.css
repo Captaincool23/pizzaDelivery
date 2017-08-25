@@ -1,7 +1,37 @@
 #customerOrder{
   display: none;
 }
+#displayWell{
+  background-color: pink;
+
+}
+
+.jumbotron h1{
+  text-align: center;
+  font-family: fantasy;
+  font-size: 4em;
+}
+.jumbotron h3{
+  text-align: center;
+  font-family: fantasy;
+}
+.well{
+  background-color: lightblue;
+  border: 50px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.orderTitle{
+  text-align: center;
+  margin-top: 50px;
+}
+
 ul{
   list-style: none;
   font-size: 3em;
+  text-align: center;
+}
+label{
+  font-size: 2em;
+  font-family: times;
 }
