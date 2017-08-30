@@ -63,7 +63,7 @@
 
 body{
   background-image: url(../img/italianStreets.jpg);
-  background-image: 100%;
+  background-size: auto;
 }
 
 ul{
