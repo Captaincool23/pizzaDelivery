@@ -21,7 +21,7 @@ _This webpage will take a users selections and will provide a price for their pi
 
 ## Specs
 
-| Specifics     |  Input        | Output |
+| Behavior    |  Input        | Output |
 | ------------- |:-------------:| -----:|
 | Receive size and toppings, displays price| Size: Small, Topping: Pepperoni, Topping: Mushrooms |$11.50  |
 |  Multiple choices increase price |  Size(small:$ 8.00) + Mushrooms($1.50) + Pepperoni (2.00) + Capicola(2.50) |  $14.00 |
