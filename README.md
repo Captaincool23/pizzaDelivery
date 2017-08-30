@@ -21,10 +21,11 @@ _This webpage will take a users selections and will provide a price for their pi
 
 ## Specs
 
-* _User will select first field for their pizza size with corresponding price_
-* _The next field the user will choose from will list different meats and vegetable toppings to choose from with corresponding prices. The user can choose up to four toppings total_
-* _When all fields have been selected the user will press the button for displaying their total and the total is displayed below the select fields._
-* _If their is mistake during selection or the user want to clear the page their is a cancel button that will refresh the page._
+| Specs     |  Input        | Output  |
+| ------------- |:-------------:| -----:|
+| Receive size and toppings, displays price| Size: Small, Topping: Pepperoni, Topping: Mushrooms |$11.50  |
+|  Multiple choices increase price     |  Mushrooms($1.50) + Pepperoni (2.00) + Capicola(2.50) + size(small:$ 8.00)    |  $14.00    |
+| Clear page of information       |  Large + Pepperoni($2.00) + Mushrooms($1.50)  | refreshed page    |
 
 ## Support and contact details
 
